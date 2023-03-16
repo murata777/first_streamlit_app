@@ -1,4 +1,6 @@
 import streamlit
+import pandas
+
 
 streamlit.title('まじか！')
 streamlit.header('Breakfast Menu')
