@@ -1,3 +1,3 @@
 import streamlit
 
-streamlit.title('AAA')
+streamlit.title('まじか！')
