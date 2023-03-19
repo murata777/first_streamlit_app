@@ -1,7 +1,7 @@
 import streamlit
 
 
-streamlit.title('まじか！')
+streamlit.title('日本語もＯＫ')
 streamlit.header('Breakfast Menu')
 streamlit.text(' 🥣 Omega 3 & Blueberry Oatmeal')
 streamlit.text(' 🥗 Kale, Spinach & Rocket Smoothie')
