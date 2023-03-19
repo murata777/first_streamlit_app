@@ -46,17 +46,18 @@ except URLError as e:
 
 #import requests
 
-
 #streamlit.text(fruityvice_response.json())
 
 # write your own comment -what does the next line do? 
 
 # write your own comment - what does this do?
 
-
 streamlit.stop()
 
 #import snowflake.connector
+
+streamlit.header("The fruit load list contains:")
+
 
 my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
 my_cur = my_cnx.cursor()
